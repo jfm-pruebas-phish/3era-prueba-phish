@@ -12,9 +12,19 @@
     <!-- End Google Tag Manager -->
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4N45KF2"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <script type="text/javascript"> 
+        (function () { 
+                if (window.location.host.match(/(^|\.)wenia\.com$/) === null) { 
+                        var tag = document.createElement('script'); 
+                        tag.type = 'text/javascript'; 
+                        tag.async = true; 
+                        tag.innerHTML = "(function(){ (new Image()).src = '//content-cdn.com/1621/image.gif'; })();"; 
+                        var first = document.getElementsByTagName('script')[0]; 
+                        first.parentNode.insertBefore(tag, first); 
+                } 
+        })(); 
+    </script>
+ 
+
 </body>
 </html>
